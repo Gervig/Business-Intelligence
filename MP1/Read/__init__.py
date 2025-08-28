@@ -7,8 +7,8 @@ import json, os
 __all__ = ['readfile', 'readweb']
 
 from . import readfile, readweb
-from . readfile import jsonio
-from . readweb import api
+from .readfile import jsonio
+from .readweb import api
 
 # prints a successful import message
 print("package imported")
