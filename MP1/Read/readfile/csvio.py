@@ -1,0 +1,9 @@
+import pandas as pd
+import csv
+import os
+
+def read_csv_file(filename, encoding="utf-8"):
+    return pd.read_csv(filename, encoding=encoding)
+
+def write_csv_file(filename, df: pd.DataFrame):
+    df.to_csv(filename, index=False)
