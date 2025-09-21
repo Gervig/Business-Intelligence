@@ -1,0 +1,17 @@
+## README FILE FOR MP3
+
+1) Which are the most decisive factors for quitting a job? Why do people quit their job?
+
+It seems there is no correlation between attrition and other factors. The strongest correlation appears to be between attrition and overtime, with a correlation of approximately 0.24, which probably means there are many factors contributing to attrition. 
+
+Therefor we want to use a Multiple Linear Regression.
+
+2) Which work positions and departments are in higher risk of losing employees?
+
+3) Are employees of different gender paid equally in all departments? 
+4) Do the family status and the distance from work influence the work-life balance?  
+5) Does education make people happy (satisfied from the work)? 
+6) Which machine learning methods did you choose to apply in the application and why? 
+7) How accurate are your solutions of prediction? Explain the meaning of the quality measures. 
+8) What could be done for further improvement of the accuracy of the models? 
+9) Which were the challenges in the project development?
