@@ -2,16 +2,45 @@
 
 1) Which are the most decisive factors for quitting a job? Why do people quit their job?
 
-It seems there is no correlation between attrition and other factors. The strongest correlation appears to be between attrition and overtime, with a correlation of approximately 0.24, which probably means there are many factors contributing to attrition. 
+It seems there is no correlation between attrition and other factors. The strongest correlation appears to be between attrition and overtime, with a correlation of approximately 0.24, which probably means there are many factors contributing to attrition.
 
-Therefor we want to use a Multiple Linear Regression.
+Our classification model is telling us that 
+- new employees are more likely to change jobs
+- If you are single you are more likely to change jobs
+-  If you are a Laboratory Technician then again you are more likely to change jobs
 
 2) Which work positions and departments are in higher risk of losing employees?
 
-3) Are employees of different gender paid equally in all departments? 
-4) Do the family status and the distance from work influence the work-life balance?  
-5) Does education make people happy (satisfied from the work)? 
-6) Which machine learning methods did you choose to apply in the application and why? 
+- our classification model tells us that Laboratory Technician are more likely to quit which means the Department Research & Development has the highest risk of lose employees 
+
+3) Are employees of different gender paid equally in all departments?
+
+It seems like there are no real pay gab between genders. See bow plot genderxMonthly income a section Exploration
+
+4) Do the family status and the distance from work influence the work-life balance?
+
+There seems to be no corraltion between family status and the distance from work to the influence of work-life balance. See exploration
+
+5) Does education make people happy (satisfied from the work)?
+
+There seems to be no corraltion between education influence of job satifaction. See exploration
+
+6) Which machine learning methods did you choose to apply in the application and why?
+
+- linear regression: We chose the linear regssion because we had one variables, and the model came out at 89% accuracy
+
+- classification: We started with normal DesicionTree, because it seem like a good fit, and we ended up with a accuracy at 99.5%
+
+- Clustering: we started useing Kmeans, because we choose the most popular model at first, the results weren't that good, but we ran out of time.
+
 7) How accurate are your solutions of prediction? Explain the meaning of the quality measures. 
+
+See above
+
 8) What could be done for further improvement of the accuracy of the models? 
+
+the only model that we didn't find satisfying where the Kmeans, we should try a diffent model or choosen diffent variables or differnt amount of variables.
+
 9) Which were the challenges in the project development?
+
+to make our figuring out how to construct the visuels to see the data like we wanted and fitting our data into the models when the  examples weren't the samme.
